@@ -7,7 +7,7 @@ module testbench();
     reg [4:0] rs1;
     reg [4:0] rs2;
     reg [4:0]rw;
-    reg [4:0]operation;
+    reg [6:0]operation;
     reg write;
     reg clk;
     reg reset;
@@ -57,11 +57,11 @@ module testbench();
 
       initial
         begin
-          #25 rs1 = 32'd52; rs2 = 32'd87; operation = `ADD;
-          #25 rs1 = 32'd14; rs2 = 32'd23; operation = `SUB;
-          #25 rs1 = 32'd10; rs2 = 32'd4;  operation = `AND;
-          #25 rs1 = 32'd7466; rs2 = 32'd962; operation = `OR;
-          #25 rs1 = 32'd3112; rs2 = 32'd45; operation = `DIV;
+          #25 rs1 = 5'd5; rs2 = 5'd27; operation = `ADD;
+          #25 rs1 = 5'd14; rs2 = 5'd23; operation = `SUB;
+          #25 rs1 = 5'd10; rs2 = 5'd14;  operation = `AND;
+          #25 rs1 = 5'd7; rs2 = 5'd9; operation = `OR;
+          #25 rs1 = 5'd2; rs2 = 5'd21; operation = `DIV;
         end
 
       initial

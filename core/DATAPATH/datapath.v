@@ -16,7 +16,7 @@ module datapath(
     input [4:0]rs1, // Source register 1 offset
     input [4:0]rs2, // Source register 2 offset
     input [4:0]rw,  // write register offset
-    input [4:0]operation,
+    input [6:0]operation,
     input write,
     input clk,
     input reset,
