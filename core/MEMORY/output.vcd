@@ -1,0 +1,56 @@
+$date
+	Thu Feb 24 00:12:40 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 32 ! instruction [31:0] $end
+$var reg 32 " pc [31:0] $end
+$var reg 1 # reset $end
+$scope module memory $end
+$var wire 32 $ pc [31:0] $end
+$var wire 1 # reset $end
+$var wire 32 % instruction [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+bx $
+0#
+bx "
+bx !
+$end
+#10
+1#
+#20
+b10110011010000010011100100000011 !
+b10110011010000010011100100000011 %
+b101 "
+b101 $
+#30
+b10110011000000001001010000000011 !
+b10110011000000001001010000000011 %
+b1 "
+b1 $
+#40
+b1011010000000101011001101000001 !
+b1011010000000101011001101000001 %
+b111 "
+b111 $
+#50
+b11101100110000000010010100 !
+b11101100110000000010010100 %
+b10 "
+b10 $
+#60
+b110011000000110101101000000010 !
+b110011000000110101101000000010 %
+b1001 "
+b1001 $
+#100

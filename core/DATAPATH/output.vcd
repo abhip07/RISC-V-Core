@@ -1,0 +1,177 @@
+$date
+	Wed Feb 23 14:27:16 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! zero_flag $end
+$var reg 1 " clk $end
+$var reg 5 # operation [4:0] $end
+$var reg 1 $ reset $end
+$var reg 5 % rs1 [4:0] $end
+$var reg 5 & rs2 [4:0] $end
+$var reg 5 ' rw [4:0] $end
+$var reg 1 ( write $end
+$scope module datapath_inst $end
+$var wire 1 " clk $end
+$var wire 5 ) operation [4:0] $end
+$var wire 1 $ reset $end
+$var wire 5 * rs1 [4:0] $end
+$var wire 5 + rs2 [4:0] $end
+$var wire 5 , rw [4:0] $end
+$var wire 1 ( write $end
+$var wire 1 ! zero_flag $end
+$var wire 32 - rwd [31:0] $end
+$var wire 32 . rd2 [31:0] $end
+$var wire 32 / rd1 [31:0] $end
+$scope module alu_inst $end
+$var wire 5 0 operation [4:0] $end
+$var wire 32 1 ip2 [31:0] $end
+$var wire 32 2 ip1 [31:0] $end
+$var reg 32 3 result [31:0] $end
+$var reg 1 ! zero_flag $end
+$upscope $end
+$scope module register_inst $end
+$var wire 1 " clk $end
+$var wire 1 $ reset $end
+$var wire 5 4 rs1 [4:0] $end
+$var wire 5 5 rs2 [4:0] $end
+$var wire 5 6 rw [4:0] $end
+$var wire 32 7 rwd [31:0] $end
+$var wire 1 ( write $end
+$var wire 32 8 rd2 [31:0] $end
+$var wire 32 9 rd1 [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+0(
+bx '
+bx &
+bx %
+1$
+bx #
+0"
+x!
+$end
+#10
+1(
+1"
+#20
+0"
+0$
+#25
+1!
+b0 -
+b0 3
+b0 7
+b0 .
+b0 1
+b0 8
+b0 /
+b0 2
+b0 9
+b0 #
+b0 )
+b0 0
+b10111 &
+b10111 +
+b10111 5
+b10100 %
+b10100 *
+b10100 4
+#30
+1"
+#40
+0"
+#50
+1"
+b1 #
+b1 )
+b1 0
+b1110 %
+b1110 *
+b1110 4
+#60
+0"
+#70
+1"
+#75
+b10 #
+b10 )
+b10 0
+b100 &
+b100 +
+b100 5
+b1010 %
+b1010 *
+b1010 4
+#80
+0"
+#90
+1"
+#100
+0"
+b11 #
+b11 )
+b11 0
+b10 &
+b10 +
+b10 5
+#110
+1"
+#120
+0"
+#125
+0!
+bx -
+bx 3
+bx 7
+b110 #
+b110 )
+b110 0
+b1101 &
+b1101 +
+b1101 5
+b1000 %
+b1000 *
+b1000 4
+#130
+1"
+#140
+0"
+#150
+1"
+#160
+0"
+#170
+1"
+#180
+0"
+#190
+1"
+#200
+0"
