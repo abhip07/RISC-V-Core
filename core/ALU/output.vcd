@@ -1,5 +1,5 @@
 $date
-	Wed Feb 23 11:55:40 2022
+	Thu Feb 24 14:23:26 2022
 $end
 $version
 	Icarus Verilog
@@ -12,11 +12,11 @@ $var wire 1 ! zero_flag $end
 $var wire 32 " result [31:0] $end
 $var reg 32 # ip1 [31:0] $end
 $var reg 32 $ ip2 [31:0] $end
-$var reg 5 % operation [4:0] $end
+$var reg 7 % operation [6:0] $end
 $scope module test_alu $end
 $var wire 32 & ip1 [31:0] $end
 $var wire 32 ' ip2 [31:0] $end
-$var wire 5 ( operation [4:0] $end
+$var wire 7 ( operation [6:0] $end
 $var reg 32 ) result [31:0] $end
 $var reg 1 ! zero_flag $end
 $upscope $end

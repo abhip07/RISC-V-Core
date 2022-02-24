@@ -6,7 +6,7 @@
 module testbench ();
 
     reg [31:0] ip1, ip2;
-    reg [4:0] operation;
+    reg [6:0] operation;
     wire [31:0] result;
     wire zero_flag;
 

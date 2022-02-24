@@ -17,7 +17,7 @@ module alu (
 
     input [31:0] ip1,
     input [31:0] ip2,
-    input [4:0] operation,
+    input [6:0] operation,
     output reg [31:0] result,
     output reg zero_flag
 );
@@ -50,4 +50,5 @@ module alu (
           zero_flag = 1'b0;
 
       end
+
 endmodule
